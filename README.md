@@ -1,2 +1,2 @@
 # CTG_DPS_Python
-![SPI Message](/assets/images/electrocat.png)
+![SPI Message](/../main/assets/images/electrocat.png)
