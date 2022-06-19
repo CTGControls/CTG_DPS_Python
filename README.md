@@ -1,4 +1,4 @@
-# Example code showing the python SPI read problem 
+# Example code showing the python SPI read from the Analog Devices AD4116 Evaluation Board problem 
 
 The hardware I am testing with:
 1. [Adafruit Metro ESP32-S2 PID: 4775 ](https://learn.adafruit.com/adafruit-metro-esp32-s2?gclid=CjwKCAjw77WVBhBuEiwAJ-YoJMRjPXh1QtimDJbR1yW8LLzvYo4f1mJYJy-sNWbw7Y1K9HXHasKQIRoCs3cQAvD_BwE)
