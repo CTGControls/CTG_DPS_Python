@@ -1,4 +1,3 @@
-import secrets
 from CTG_AD4116Class import *
 from CTG_AD4116_ import *
 
@@ -7,7 +6,7 @@ import busio
 import digitalio
 
 
-ss = digitalio.DigitalInOut(board.IO10)
+ss = digitalio.DigitalInOut(board.IO9)
 ss.direction = digitalio.Direction.OUTPUT
 ss.value = False
 
