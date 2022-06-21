@@ -14,7 +14,7 @@ class CTG_AD4116_:
         with busio.SPI(board.SCK, board.MOSI, board.MISO) as spi_bus:
 
 
-            cs = digitalio.DigitalInOut(board.IO9)
+            cs = digitalio.DigitalInOut(board.IO10)
             cs.direction = digitalio.Direction.OUTPUT
             cs.value = False
             fspi = SPIDevice(spi_bus, cs, cs_active_value=False, polarity=1, phase=1,baudrate=spiClk)
