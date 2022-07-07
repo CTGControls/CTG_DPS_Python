@@ -147,7 +147,7 @@ class CTG_AD4116Class:
 		CTG_AD4116Class.get_register(spi, spiClk, adc7173_register_t.ID_REG, value, 2)
 
 		#/* check if the id matches 0x30DX, where X is don't care */
-		valid_id = value[0] == 0x34 and value[1] == 0xD0
+		valid_id = value[0] == 0x34 and value[1] == 0xDA
 		if(DEBUG_ENABLED):
 			if (valid_id):
 				print("AD4116 ID is valid" )
